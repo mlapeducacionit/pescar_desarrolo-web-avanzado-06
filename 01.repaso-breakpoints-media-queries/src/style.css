@@ -1,0 +1,41 @@
+/* 
+Breakpoints o puntos de quiebre que vamos a utilizar cuando trabajos nuestra páginas
+
+https://tailwindcss.com/docs/responsive-design
+https://getbootstrap.com/docs/5.0/layout/breakpoints/
+*/
+
+/* 
+! IDEAL 
+Breakpoint  |	Dimensions
+
+X-Small	          |	<576px
+Small	            | ≥576px
+Medium	          | ≥768px
+Large	            |	≥992px
+Extra large       |	≥1200px
+Extra extra large	|	≥1400px
+
+! REAL
+Breakpoint  |	Dimensions
+
+Small	            | ≥576px
+Medium	          | ≥768px
+Extra large       |	≥1200px
+
+! Economica
+Breakpoint  |	Dimensions
+
+Small	            | ≥576px
+Extra large       |	≥1200px
+*/
+
+/* Trabajamos con estos 3 breakpoints */
+
+/* Para dispositivos pequeños (No uso media queries en el modelo mobile first */
+/* Small	  | ≥576px */
+
+
+
+/* Medium	          | ≥768px
+Extra large       |	≥1200px */
