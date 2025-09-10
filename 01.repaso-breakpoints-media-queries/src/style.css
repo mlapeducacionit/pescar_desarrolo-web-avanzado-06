@@ -119,16 +119,42 @@ section:nth-child(2n+1) {
     header nav {
         display: flex;
     }
-    
+
     .hamburguesa {
         display: none;
+    }
+
+    header nav ul {
+        flex-direction: row;
+        gap: 1.5rem; /* row-gap & column-gap */
+    }
+
+    main {
+        font-size: 1.2em;
     }
 }
 
 /* ! Extra large       |	≥1200px */
 /* Para el resto de dispositivos (Desktop, Televisores...) */
 @media screen and (min-width: 1200px) {
-    
+    main {
+        flex-direction: row;
+    }
+
+    section {
+        text-align: left;
+        flex: 1;
+        align-items: flex-start;
+        padding: 3rem;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section p {
+        font-size: 1.2em;
+    }
 }
 
 /* https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries/Using_media_queries */
